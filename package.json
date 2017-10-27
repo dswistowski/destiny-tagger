@@ -1,0 +1,36 @@
+{
+  "name": "destiny-tagger",
+  "version": "1.0.0",
+  "description": "Generate tags for Destiny 2 items",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run tsc",
+    "test": "mocha",
+    "test:cov": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "destiny",
+    "tagging",
+    "item",
+    "manager"
+  ],
+  "author": "Damian Świstowski",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dswistowski/destiny-tagger"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^2.2.40",
+    "@types/node": "^7.0.12",
+    "codecov": "^2.1.0",
+    "mocha": "^3.2.0",
+    "nyc": "^10.2.0",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2"
+  }
+}
