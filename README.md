@@ -1,5 +1,9 @@
 ## Destiny tagger
 
+[![Build Status](https://travis-ci.org/dswistowski/destiny-tagger.svg?branch=master)](https://travis-ci.org/dswistowski/destiny-tagger)
+[![codecov](https://codecov.io/gh/dswistowski/destiny-tagger/branch/master/graph/badge.svg)](https://codecov.io/gh/dswistowski/destiny-tagger)
+
+
 This module will tag your destiny item.
 
 ## Who is using it?
